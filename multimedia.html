@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en" class="h-full scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Multimedia portfolio page with selected visual work."
+    />
+    <title>Multimedia - Fabrizio Rivva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-full bg-white text-zinc-900 antialiased">
+    <header class="border-b border-zinc-200 bg-white/90 backdrop-blur">
+      <div class="mx-auto flex max-w-5xl items-center justify-between px-5 py-4">
+        <a href="index.html" class="text-sm font-semibold tracking-tight"
+          >Fabrizio Rivva</a
+        >
+        <a
+          href="index.html#work"
+          class="inline-flex items-center justify-center rounded-xl border border-zinc-200 bg-white px-4 py-2 text-sm font-medium text-zinc-900 transition hover:bg-zinc-50"
+          >Back to Work</a
+        >
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-5xl px-5 py-14 md:py-20">
+      <section class="space-y-6">
+        <span
+          class="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-700"
+          >01 · Multimedia</span
+        >
+        <h1 class="text-3xl font-semibold tracking-tight md:text-4xl">
+          Photography and Videography
+        </h1>
+        <p class="max-w-3xl text-zinc-600">
+          This page showcases selected cases that I have been working for social media and advertising purposes.
+      
+        </p>
+      </section>
+
+      <section class="mt-10" aria-label="Multimedia categories">
+        <div class="grid gap-3 sm:grid-cols-2">
+          <button
+            type="button"
+            id="mm-btn-brand"
+            class="mm-tab rounded-2xl border border-indigo-500 bg-indigo-50 px-5 py-4 text-left text-sm font-semibold text-indigo-900 shadow-sm transition hover:bg-indigo-100"
+            aria-pressed="true"
+            aria-controls="mm-panel-brand"
+            data-panel="brand"
+          >
+            Video Concepts
+          </button>
+          <button
+            type="button"
+            id="mm-btn-short"
+            class="mm-tab rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-left text-sm font-semibold text-zinc-900 shadow-sm transition hover:bg-zinc-50"
+            aria-pressed="false"
+            aria-controls="mm-panel-short"
+            data-panel="short"
+          >
+            Photography
+          </button>
+        </div>
+
+        <div
+          id="mm-panel-brand"
+          role="region"
+          aria-labelledby="mm-btn-brand"
+          class="mt-6 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm"
+        >
+          <div
+            class="mt-6 grid grid-cols-3 gap-3 sm:gap-4"
+            aria-label="Brand campaign gallery"
+          >
+            <div class="aspect-[9/16] rounded-xl overflow-hidden border border-zinc-200 bg-zinc-100">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/P09Q1PAQsFE"
+                title="Video concept"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="aspect-[9/16] rounded-xl overflow-hidden border border-zinc-200 bg-zinc-100">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/MEiNCC9Rjok"
+                title="Video concept"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="aspect-[9/16] rounded-xl overflow-hidden border border-zinc-200 bg-zinc-100">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/c2EULZZKxeU"
+                title="Video concept"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="aspect-[9/16] rounded-xl border border-zinc-200 bg-zinc-100">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/hGbHP0o7exY"
+                title="Video concept"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="aspect-[9/16] rounded-xl border border-zinc-200 bg-zinc-100">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/uUm7JvVQKMU"
+                title="Video concept"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="aspect-[9/16] rounded-xl border border-zinc-200 bg-zinc-100">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/_9Xom5s_DhM"
+                title="Video concept"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="mm-panel-short"
+          role="region"
+          aria-labelledby="mm-btn-short"
+          class="mt-6 hidden rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm"
+        >
+          <div
+            class="mt-6 grid grid-cols-3 gap-3 sm:gap-4"
+            aria-label="Photography gallery"
+          >
+            <!-- Row 1: vertical images -->
+            <div class="rounded-xl overflow-hidden border border-zinc-200 bg-zinc-100">
+              <img src="Multimedia files/_DSC7298.jpg" alt="Photography" class="w-full h-auto cursor-pointer transition hover:opacity-90 lightbox-trigger" />
+            </div>
+            <div class="rounded-xl overflow-hidden border border-zinc-200 bg-zinc-100">
+              <img src="Multimedia files/DSC09856.jpg" alt="Photography" class="w-full h-auto cursor-pointer transition hover:opacity-90 lightbox-trigger" />
+            </div>
+            <div class="rounded-xl overflow-hidden border border-zinc-200 bg-zinc-100">
+              <img src="Multimedia files/GOPR0263.jpg" alt="Photography" class="w-full h-auto cursor-pointer transition hover:opacity-90 lightbox-trigger" />
+            </div>
+            <!-- Row 2: horizontal images -->
+            <div class="rounded-xl overflow-hidden border border-zinc-200 bg-zinc-100">
+              <img src="Multimedia files/_DSC7054.jpg" alt="Photography" class="w-full h-auto cursor-pointer transition hover:opacity-90 lightbox-trigger" />
+            </div>
+            <div class="rounded-xl overflow-hidden border border-zinc-200 bg-zinc-100">
+              <img src="Multimedia files/Francesco.jpg" alt="Photography" class="w-full h-auto cursor-pointer transition hover:opacity-90 lightbox-trigger" />
+            </div>
+            <div class="rounded-xl overflow-hidden border border-zinc-200 bg-zinc-100">
+              <img src="Multimedia files/_DSC9398.jpg" alt="Photography" class="w-full h-auto cursor-pointer transition hover:opacity-90 lightbox-trigger" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div
+      id="lightbox"
+      class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Image lightbox"
+    >
+      <button
+        id="lightbox-close"
+        class="absolute top-4 right-4 rounded-full bg-white/10 p-2 text-white transition hover:bg-white/20"
+        aria-label="Close"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <img id="lightbox-img" src="" alt="" class="max-h-[90vh] max-w-full rounded-2xl shadow-2xl" />
+    </div>
+
+    <script>
+      (function () {
+        var tabs = document.querySelectorAll(".mm-tab");
+        var brandPanel = document.getElementById("mm-panel-brand");
+        var shortPanel = document.getElementById("mm-panel-short");
+        var active =
+          "rounded-2xl border border-indigo-500 bg-indigo-50 px-5 py-4 text-left text-sm font-semibold text-indigo-900 shadow-sm transition hover:bg-indigo-100";
+        var idle =
+          "rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-left text-sm font-semibold text-zinc-900 shadow-sm transition hover:bg-zinc-50";
+
+        function show(panel) {
+          var isBrand = panel === "brand";
+          brandPanel.classList.toggle("hidden", !isBrand);
+          shortPanel.classList.toggle("hidden", isBrand);
+          document.getElementById("mm-btn-brand").setAttribute(
+            "aria-pressed",
+            isBrand ? "true" : "false"
+          );
+          document.getElementById("mm-btn-short").setAttribute(
+            "aria-pressed",
+            isBrand ? "false" : "true"
+          );
+          document.getElementById("mm-btn-brand").className = isBrand ? active : idle;
+          document.getElementById("mm-btn-short").className = isBrand ? idle : active;
+        }
+
+        tabs.forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            show(btn.getAttribute("data-panel"));
+          });
+        });
+      })();
+
+      (function () {
+        var lightbox = document.getElementById("lightbox");
+        var lightboxImg = document.getElementById("lightbox-img");
+
+        function openLightbox(src, alt) {
+          lightboxImg.src = src;
+          lightboxImg.alt = alt;
+          lightbox.classList.remove("hidden");
+          lightbox.classList.add("flex");
+          document.body.style.overflow = "hidden";
+        }
+
+        function closeLightbox() {
+          lightbox.classList.add("hidden");
+          lightbox.classList.remove("flex");
+          lightboxImg.src = "";
+          document.body.style.overflow = "";
+        }
+
+        document.querySelectorAll(".lightbox-trigger").forEach(function (img) {
+          img.addEventListener("click", function () {
+            openLightbox(img.src, img.alt);
+          });
+        });
+
+        document.getElementById("lightbox-close").addEventListener("click", closeLightbox);
+
+        lightbox.addEventListener("click", function (e) {
+          if (e.target === lightbox) closeLightbox();
+        });
+
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape") closeLightbox();
+        });
+      })();
+    </script>
+  </body>
+</html>
